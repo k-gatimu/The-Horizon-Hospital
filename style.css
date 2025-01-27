@@ -28,11 +28,11 @@ p {
     z-index: 1000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-}
 
 .header .logo {
     font-size: 1rem;
 }
+
 .header .logo i {
     color: blue;
 }
@@ -40,6 +40,7 @@ p {
 .header .navbar a:hover {
     color: black;
 }
+
 .header .navbar a {
     margin-left: 1rem;
 }
@@ -138,10 +139,12 @@ a:active {
     gap: 1.5rem;
     padding-bottom: 1rem;
 }
+
 .home .image {
     flex: 40rem 1 1;
     padding-top: 1rem;
 }
+
 .home .image  img{
     width: 500px;
 }
@@ -150,6 +153,7 @@ a:active {
 font-size: 2rem;
 padding-right: 20rem;
 }
+
 .home .content .heading span {
     color: grey;
     padding-right: 9rem;
@@ -167,6 +171,7 @@ padding-right: 20rem;
     background-color: black;
     color: #fff;
 }
+
 .home .b-tn{
     background-color: black;
     color: #fff;
@@ -183,6 +188,7 @@ padding-right: 20rem;
      padding-top:10px;
      padding-bottom: 10px;
 }
+
 .home .btn:hover {
     cursor: pointer;
     background-color: green;
@@ -195,6 +201,7 @@ padding-right: 20rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+
 .conviency-container .conviency {
     background-color: black;
     color: #fff;
@@ -208,6 +215,7 @@ padding-right: 20rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2rem;
 }
+
 .services  .box-container .box {
     background-color: lightgrey;
     text-align: center;
@@ -224,10 +232,12 @@ padding-right: 20rem;
 .services .heading span {
     color: darkgrey;
 }
+
 .seaking .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
+
 .seaking .box-container .box {
     background-color: lightgrey;
     text-align: center;
@@ -235,8 +245,8 @@ padding-right: 20rem;
     margin: 5px;
     width: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
+
 .seaking .box-container .box p, h5 {
     text-align: center;
 }
@@ -253,18 +263,21 @@ padding-right: 20rem;
     margin: 5px;
     width: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
+
 .doctor .heading span {
     color: darkgrey;
 }
+
 .doctor .box-container p {
 text-align: left;
 }
+
 .easy-steps  .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
+
 .easy-steps  .box-container .box {
     background-color: lightgrey;
     text-align: center;
@@ -277,6 +290,7 @@ text-align: left;
 .easy-steps  .box-container .box p, h3,h1 {
     text-align: center;
 }
+
 .easy-steps .heading span {
     color: darkgrey;
 }
@@ -292,32 +306,39 @@ text-align: left;
     padding-top: 0rem;
     gap: 1.5rem;
 }
+
 .best-doctor .image {
     flex: 40rem 1 1;
     margin-top: 5rem;
-}s
+}
+
 .best-doctor .image  img{
     width: 500px;
 }
+
 .best-doctor .content h2{
-font-size: 2rem;
-padding-right: 20rem;
+   font-size: 2rem;
+   padding-right: 20rem;
 }
 
 .best-doctor .content p{
     font-size: 1rem;
     padding-right: 12rem;
     }
+
 .best-doctor .content {
     flex: 40rem 1 1;
     margin-top: 0;
 }
+
 .best-doctor .content .heading {
     padding-right: 10rem;
 }
+
 .best-doctor .content .heading span {
     color: darkgrey;
 }
+
 .best-doctor .btn{
     background-color: black;
     color: #fff;
@@ -327,6 +348,7 @@ padding-right: 20rem;
     padding-bottom: 13px;
 
 }
+
 .btn:hover {
     cursor: pointer;
 }
@@ -334,6 +356,7 @@ padding-right: 20rem;
 .section {
     padding: 2rem 9px;
 }
+
 .online-care {
     flex-wrap: wrap;
     align-items: center;
@@ -341,13 +364,16 @@ padding-right: 20rem;
     padding-top: 0rem;
     gap: 1.5rem;
 }
+
 .online-care .image {
     flex: 40rem 1 1;
     margin-top: 5rem;
 }
+
 .online-care .image  img{
     width: 500px;
 }
+
 .online-care .content h2{
 font-size: 2rem;
 padding-right: 22rem;
@@ -357,13 +383,16 @@ padding-right: 22rem;
     font-size: 1rem;
     padding-right: 7rem;
     }
+
 .online-care .content {
     flex: 1 1 40rem;
     margin-top: 0;
 }
+
 .online-care .heading span {
     color: darkgrey;
 }
+
 .online-care .btn{
     background-color: black;
     color: #fff;
@@ -371,7 +400,6 @@ padding-right: 22rem;
     padding-right:1rem;
     padding-top:13px;
     padding-bottom: 13px;
-
 }
 .btn:hover {
     cursor: pointer;
@@ -391,9 +419,11 @@ padding-right: 22rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 }
+
 .about-us .heading span {
     color: darkgrey;
 }
+
 .about-us .box-container p {
     text-align: left;
 }
@@ -402,7 +432,6 @@ padding-right: 22rem;
     padding: 2rem 9px;
 }
 
-
 .register .submit h3 {
     font-size: 1.5rem;
     text-align: center;
@@ -410,13 +439,16 @@ padding-right: 22rem;
     padding: 2rem;
     margin-top: 2rem;
 }
+
 .register .heading span {
     color: grey;
 }
+
 .register .btn:hover {
     background-color: green;
     cursor: pointer;
 }
+
 .register .btn {
     margin-left: 12rem;
     background-color: black;
@@ -451,23 +483,28 @@ padding-right: 22rem;
 .footer .box-container .heading {
     padding-right: 10rem;
 }
+
 .footer .box-container .heading span {
     color: grey;
     padding-right: 4rem;
 }
+
 .footer .box-container .box h3 {
     color: black;
     padding-left: 5.5rem;
 }
+
 .footer .box-container .box a {
     display: block;
     color: black;
     padding: 1rem;
     padding-left: 10.5rem;
 }
+
 .footer .box-container a:hover {
     color: green;
 }
+
 .footer .me {
     background-color: darkgrey;
     text-align: center;
@@ -476,6 +513,7 @@ padding-right: 22rem;
     padding-bottom: 8px;
 
 }
+
 .footer .me span {
     color: grey;
 }
